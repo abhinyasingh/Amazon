@@ -1,0 +1,89 @@
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 193, 193);
+    border: 2px solid black;
+    border-radius: 90px;
+    box-shadow: 10px 10px 10px rgb(53, 32, 32) ;
+    text-decoration: double;
+    text-shadow: 2px 2px white;
+}
+
+
+.body{
+  background-color:white;
+}
+
+.h3{
+  text-shadow: 2px 2px rgb(117, 20, 208);
+}
+
+.shop-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(246, 238, 238, 0.655);
+    box-shadow: 10px 10px 10px black inset;
+    padding: 50px 0;
+  }
+  
+  .shop-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    max-width: 1280px;
+    width: 100%;
+    border: 10px 10px solid black;
+    box-shadow: 20px 20px 20px rgb(26, 10, 10);
+  }
+  
+  .shop-link {
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    white-space: nowrap;
+  }
+
+  .footer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #37475a;
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 600;
+    height: 60px;
+  }
+  
+  .footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+    background: #232f3e;
+  }
+  
+  .footer-items h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0 10px 0;
+  }
+  
+  .footer-items ul {
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  
+  .footer-items li a {
+    color: #ddd;
+    font-size: 0.875rem;
+  }
+  
+  .footer-items li a:hover {
+    text-decoration: underline;
+  }
+  
